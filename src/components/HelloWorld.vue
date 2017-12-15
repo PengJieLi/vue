@@ -11,7 +11,7 @@
     name: 'HelloWorld',
     methods: {
       handleClick () {
-        alert(123)
+        alert(456)
       }
     }
   }
