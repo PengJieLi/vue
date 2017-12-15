@@ -1,8 +1,8 @@
 {
-  "name": "my-project",
+  "name": "teaching-vue",
   "version": "1.0.0",
-  "description": "test",
-  "author": "my",
+  "description": "A Vue.js project",
+  "author": "our team",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "vue": "^2.5.2",
+    "vue-awesome-swiper": "^3.0.6",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {
@@ -37,6 +38,7 @@
     "eslint-plugin-node": "^5.2.0",
     "eslint-plugin-promise": "^3.4.0",
     "eslint-plugin-standard": "^3.0.1",
+    "eventsource-polyfill": "^0.9.6",
     "extract-text-webpack-plugin": "^3.0.0",
     "file-loader": "^1.1.4",
     "friendly-errors-webpack-plugin": "^1.6.1",
